@@ -1,13 +1,13 @@
 return {
-	"maxmx03/solarized.nvim",
+	"Mofiqul/adwaita.nvim",
 	lazy = false,
 	priority = 1000,
-	---@type solarized.config
+	---@type adwaita.config
 	opts = {},
 	config = function(_, opts)
 		vim.o.termguicolors = true
 		vim.o.background = "light"
-		require("solarized").setup(opts)
-		vim.cmd.colorscheme("solarized")
+		require("adwaita").setup(opts)
+		vim.cmd.colorscheme("adwaita")
 	end,
 }
